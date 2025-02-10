@@ -25,7 +25,11 @@ class Point:
         return self.y
     # je créé deux methode qui entre un nouvel entier dans self.x puis retourn x
 a=Point(1,2)
-print(a.afficherLesPoints())
-print(a.changerX())
-print(a.afficherX())
+# print(a.afficherLesPoints())
+# print(a.changerX())
+# print(a.afficherX())
+
+
+choco=a.changerX()
+print(choco)
     

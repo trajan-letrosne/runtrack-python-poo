@@ -19,6 +19,6 @@ class Animal:
 #je créé une methode qui ajoute un nom a l'animal puis retourne son nom
 
 object=Animal()
-print(object.afficher_age())
-print(object.viellir())
-print(object.nommer())
+object.afficher_age()
+object.viellir()
+object.nommer()
